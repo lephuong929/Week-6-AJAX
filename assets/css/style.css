@@ -1,0 +1,38 @@
+.jumbotron {
+	text-align: center;
+	position: relative;
+}
+
+#nba-logo {
+	float: left;
+	height: 90%;
+	position: absolute;
+	bottom: 15px;
+	left: 300px;
+
+}
+
+#jumbrotron-text {
+	float: left;
+}
+
+button {
+	background-color: #0253A4;
+	color: white;
+	border-color: #0253A4;
+	margin: 5px;
+	text-transform:capitalize;
+}
+
+#input-field {
+	margin-left: 70%;
+	width: auto;
+	position: absolute;
+
+}
+
+#add-player {
+	background-color: #0253A4;
+	color: white;
+	border-color: #0253A4;
+}

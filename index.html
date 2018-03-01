@@ -8,18 +8,22 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="jumbotron">
+      <img src="assets/images/logo.png" alt="nba-logo" id="nba-logo">
+      <h1 id="jumbotron-text">Basketball Giphy</h1>
+    </div>
+
+    <div class="container-fluid">
       <div class="row">
-        <h1> Select a player to view the gifs </h1>
+
         <div class="col-xs-12 col-sm-12 col-md-12" id="buttonsLocation">
         </div>  
       </div>
-    </div>
 
-    
+      <br>
+      <br>
 
-    <div class="container">
-      <div class="row">
+      <div class="row" style="position: relative">
         <!--Column to hold generated GIFS-->
         <div class="col-xs-7 col-sm-7 col-md-7" id="gifs-appear-here">
         </div>
@@ -27,7 +31,21 @@
         <div class="col-xs-1 col-sm-1 col-md-1">
         </div>
         <!--Column to submit to players-->
-        <div class="col-xs-4 col-sm-4 col-md-4">
+        <div class=" panel panel-default col-xs-4 col-sm-4 col-md-4" id="input-field">
+          <form id="player-form">
+            <div class="panel-heading">
+              <h3 class="panel-title">Add a new player</h3>
+            </div>
+            <div class="panel-body"> 
+            <label for="player-input"></label>
+              <input type="text" id="player-input">
+              <br>
+              <br>
+              <!-- Button triggers new player to be added -->
+              <input id="add-player" type="submit" value="Submit">
+
+            </div>
+          </form>
         </div>
       </div>
     </div>
